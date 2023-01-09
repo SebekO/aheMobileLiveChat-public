@@ -1,6 +1,10 @@
 # aheMobileLiveChat
 Aplikacja mobilna do zaliczenia przedmiotu Programowanie urządzeń mobilnych na AHE w Łodzi
 
+## Ready .apk file for android available on:
+
+### https://1drv.ms/u/s!AlMGY0l7Qzz_j61rj7d4PAYNAsu9CA?e=cWJO3E
+
 ## Environmental Setup:
 
 ### Windows:
