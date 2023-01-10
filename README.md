@@ -35,9 +35,8 @@ $ sudo apt-get upgrade
 ```
 5. clone this repository and update all necessary package:
 ```
-git clone git@github.com:SebekO/aheMobileLiveChat.git
-cd aheMobileLiveChat
-git checkout sebek
+git clone git@github.com:SebekO/aheMobileLiveChat-public.git
+cd aheMobileLiveChat-public
 npm i
 yarn add react-native-reanimated
 npx react-native run-android
