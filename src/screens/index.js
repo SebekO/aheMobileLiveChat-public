@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SignIn from './Login';
 import SignUp from './SignUp';
 import Home from './Home';
+import CometChat from './CometChatScreens';
 import Profile from './Profile';
 
 import {useFirebase} from '../context/FirebaseContext';
@@ -26,6 +27,7 @@ const HomeScreen = () => (
     }}>
     <Stack.Screen name="Home" component={Home} />
     <Stack.Screen name="Profile" component={Profile} />
+    <Stack.Screen name="CometChat" component={CometChat} />
   </Stack.Navigator>
 );
 
