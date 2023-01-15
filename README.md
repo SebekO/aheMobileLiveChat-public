@@ -1,8 +1,11 @@
 # aheMobileLiveChat
 Aplikacja mobilna do zaliczenia przedmiotu Programowanie urządzeń mobilnych na AHE w Łodzi
 
-## Environmental Setup:
+## Ready .apk file for android available on:
 
+### https://1drv.ms/u/s!AlMGY0l7Qzz_j61sJJY4HJu21Lr-ZA?e=bT4wCQ
+
+## Environmental Setup:
 ### Windows:
 
 --//--
@@ -14,9 +17,9 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 2. Setting up the development environment following steps from tutorial
-```
-https://reactnative.dev/docs/environment-setup
-```
+
+   https://reactnative.dev/docs/environment-setup
+
 3. Run android studio app:
 ```
 /opt/android-studio/bin/studio.sh
@@ -32,9 +35,8 @@ https://reactnative.dev/docs/environment-setup
 ```
 5. clone this repository and update all necessary package:
 ```
-git clone git@github.com:SebekO/aheMobileLiveChat.git
-cd aheMobileLiveChat
-git checkout sebek
+git clone git@github.com:SebekO/aheMobileLiveChat-public.git
+cd aheMobileLiveChat-public
 npm i
 yarn add react-native-reanimated
 npx react-native run-android
